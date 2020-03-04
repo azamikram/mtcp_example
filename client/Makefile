@@ -13,6 +13,8 @@ DIRS=$(BUILD_DIR)
 
 CC=gcc -g -O3 -Wall -Werror -fgnu89-inline
 
+CFLAGS += -DAPP_E
+
 ifeq ($V,) # no echo
 	export MSG=@echo
 	export HIDE=@
