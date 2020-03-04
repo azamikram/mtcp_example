@@ -1,5 +1,5 @@
-#ifndef _LOCAL_DEBUG
-#define _LOCAL_DEBUG
+#ifndef LOCAL_DEBUG_H_
+#define LOCAL_DEBUG_H_
 
 #include <stdio.h>
 
@@ -42,4 +42,4 @@
 
 #endif /* APP_D */
 
-#endif /* _LOCAL_DEBUG */
+#endif /* LOCAL_DEBUG_H_ */

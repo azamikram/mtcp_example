@@ -23,6 +23,8 @@
 #include "debug.h"
 #include "netlib.h"
 
+#include "local_debug.h"
+
 #define MAX_FLOW_NUM (5)
 
 #define RCVBUF_SIZE (2 * 1024)
